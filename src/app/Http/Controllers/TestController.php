@@ -13,7 +13,7 @@ class TestController extends Controller
      */
     public function index()
     {
-        //
+        return view('test');
     }
 
     /**
@@ -23,7 +23,7 @@ class TestController extends Controller
      */
     public function create()
     {
-        //
+
     }
 
     /**
@@ -34,7 +34,8 @@ class TestController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        dd($request);
     }
 
     /**

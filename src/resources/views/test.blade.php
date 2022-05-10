@@ -8,7 +8,8 @@
 </head>
 <body>
 <h1>testでござる</h1>
-<form action="/test/create" method="POST">
+<form action="" method="POST">
+    @csrf
     <h3>タイトル</h3>
     <input type="text" name="title">
     <h3>内容</h3>
